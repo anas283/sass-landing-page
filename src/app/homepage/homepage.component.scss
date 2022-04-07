@@ -1,0 +1,150 @@
+.homepage {
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  background-color: #3734A9;
+  padding-top: 130px;
+  background-image: url(../../assets/images/bg-stuff.svg);
+  background-repeat: no-repeat;
+
+  .section-title {
+    color: white;
+    font-size: 60px;
+    font-weight: 800;
+    text-align: center;
+    line-height: 80px;
+  }
+
+  .subtitle {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    text-align: center;
+    margin-top: 30px;
+  }
+
+  .btn-orange {
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    margin-top: -15px;
+    background-color: #FF7F5C;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 15px 40px;
+    border-radius: 30px;
+
+    &:hover {
+      transition: .2s ease;
+      background-color: #db6544;
+    }
+  }
+
+  .btn-green {
+    width: 55px;
+    height: 55px;
+    font-size: 14px;
+    color: white;
+    margin-top: -15px;
+    background-color: #22D497;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 15px 20px;
+    border-radius: 30px;
+
+    &:hover {
+      transition: .2s ease;
+      background-color: #19af7b;
+    }
+  }
+
+  .title-see {
+    color: white;
+    margin-left: 15px;
+    font-size: 17px;
+    font-weight: 500;
+  }
+}
+
+.dashboard-preview {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 0;
+  overflow: hidden;
+
+  img {
+    position: absolute;
+    transform: translateY(-23%);
+  }
+}
+
+.partners {
+  width: 100%;
+  margin-top: 30px;
+  padding-bottom: 60px;
+
+  .section-title {
+    font-size: 22px;
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .logo {
+    width: 85%;
+  }
+}
+
+.features {
+  padding-bottom: 60px;
+
+  .feature-1-img {
+    img {
+      width: 100%;
+    }
+  }
+
+  .title-1 {
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #3734A9;
+    margin-top: 25px;
+  }
+
+  .title-2 {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 56px;
+    letter-spacing: -0.03em;
+    color: #000000;
+    margin-top: 10px;
+  }
+
+  .title-3 {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    letter-spacing: -0.02em;
+    color: #757095;
+    margin-top: 10px;
+  }
+
+  .btn-blue {
+    font-size: 14px;
+    color: white;
+    margin-top: 20px;
+    padding: 15px 40px;
+    background: #3734A9;
+    border-radius: 7px;
+
+    &:hover {
+      transition: .2s ease;
+      background-color: #24208f;
+    }
+  }
+  
+}

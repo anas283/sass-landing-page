@@ -1,0 +1,53 @@
+.navbar-1 {
+  padding: 30px 0;
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 90px;
+
+  .logo {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .navigation {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+
+    .links {
+      color: white;
+      margin: 0 20px;
+      font-size: 14px;
+      font-weight: 500;
+      cursor: pointer;
+
+      &:hover {
+        transition: .2s ease;
+        color: #FF7F5C;
+      }
+    }
+  }
+
+  .btn-link {
+    font-size: 14px;
+    color: white;
+    margin-top: -15px;
+  }
+
+  .btn-orange {
+    font-size: 14px;
+    color: white;
+    margin-top: -15px;
+    background-color: #FF7F5C;
+    margin-left: 20px;
+    border-radius: 10px;
+    padding: 10px 40px;
+
+    &:hover {
+      transition: .2s ease;
+      background-color: #db6544;
+    }
+  }
+}
