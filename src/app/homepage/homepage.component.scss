@@ -24,23 +24,6 @@
     margin-top: 30px;
   }
 
-  .btn-orange {
-    font-size: 16px;
-    font-weight: 500;
-    color: white;
-    margin-top: -15px;
-    background-color: #FF7F5C;
-    margin-left: 20px;
-    border-radius: 10px;
-    padding: 15px 40px;
-    border-radius: 30px;
-
-    &:hover {
-      transition: .2s ease;
-      background-color: #db6544;
-    }
-  }
-
   .btn-green {
     width: 55px;
     height: 55px;
@@ -132,19 +115,261 @@
     color: #757095;
     margin-top: 10px;
   }
+}
 
-  .btn-blue {
-    font-size: 14px;
-    color: white;
-    margin-top: 20px;
-    padding: 15px 40px;
-    background: #3734A9;
-    border-radius: 7px;
+.preference {
+  width: 100%;
+  background-color: #3734A9;
+  padding: 80px 0;
 
-    &:hover {
-      transition: .2s ease;
-      background-color: #24208f;
+  .section-title {
+    font-weight: 800;
+    font-size: 45px;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+    color: #FFFFFF;
+  }
+
+  .btn-orange {
+    border-radius: 10px;
+    margin-top: 22px;
+  }
+
+  .working-img {
+    width: 100%;
+  }
+
+  .number-circle {
+    width: 80px;
+    height: 80px;
+    min-width: 80px;
+    min-height: 80px;
+    background-color: #313091;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+    font-size: 38px;
+    color: #E8F2FF;
+  }
+
+  .info {
+    padding-left: 20px;
+
+    .text-1 {
+      font-weight: 700;
+      font-size: 26px;
+      line-height: 32px;
+      letter-spacing: -0.02em;
+      color: #E8F2FF;
+    }
+
+    .text-2 {
+      font-weight: 500;
+      font-size: 18px;
+      line-height: 26px;
+      letter-spacing: -0.02em;
+      color: #A0B3E9;
     }
   }
-  
+}
+
+.bg-light {
+  background-color: #FAFBFF;
+}
+
+.section-bottom {
+  width: 100%;
+  padding: 80px 0;
+
+  .card-1 {
+    background: #FFFFFF;
+    border: 1px solid #DEE1E6;
+    box-sizing: border-box;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+
+    .section-title {
+      font-weight: 800;
+      font-size: 28px;
+      line-height: 46px;
+      letter-spacing: -0.03em;
+      color: #000000;
+    }
+
+    .gray-box {
+      width: 60px;
+      height: 60px;
+      min-width: 60px;
+      min-height: 60px;
+      background: #EBECE8;
+      border-radius: 5px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+    .title {
+      font-size: 16px;
+      line-height: 24px;
+      letter-spacing: -0.02em;
+      color: #64607D;
+      margin-top: 5px;
+      margin-left: 15px;
+    }
+  }
+
+  .section-read-more {
+    margin-top: 50px;
+    margin-left: -15px;
+    margin-right: -15px;
+
+    .card-shadow {
+      background: #FFFFFF;
+      box-shadow: 0px 141.825px 113.46px rgba(0, 0, 0, 0.03), 0px 91.9235px 66.4476px rgba(0, 0, 0, 0.0227778), 0px 54.6288px 36.1391px rgba(0, 0, 0, 0.0182222), 0px 28.365px 18.4372px rgba(0, 0, 0, 0.015), 0px 11.5561px 9.24488px rgba(0, 0, 0, 0.0117778), 0px 2.62639px 4.46486px rgba(0, 0, 0, 0.00722222);
+      border-radius: 20px;
+      padding: 30px 50px;
+
+      .section-title {
+        font-weight: 800;
+        font-size: 42px;
+        line-height: 50px;
+        text-align: center;
+        letter-spacing: -0.03em;
+        color: #000000;
+      }
+
+      .subtitle {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+        letter-spacing: -0.02em;
+        color: #64607D;
+        margin-top: 15px;
+      }
+    }
+  }
+
+  .section-blogs {
+    margin-top: 70px;
+
+    .section-title {
+      font-weight: 800;
+      font-size: 50px;
+      line-height: 66px;
+      letter-spacing: -0.03em;
+      color: #000000;
+    }
+
+    .card-3 {
+      background-color: white;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 45px;
+
+      .info {
+        padding: 20px 25px;
+      }
+
+      .title-1 {
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 36px;
+        letter-spacing: 0.07em;
+        text-transform: uppercase;
+        color: #000000;
+      }
+
+      .title-2 {
+        font-weight: 700;
+        font-size: 29px;
+        line-height: 36px;
+        letter-spacing: -0.02em;
+        color: #000000;
+      }
+
+      .btn-link {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+        color: #1B1C31;
+        padding: 0;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+
+        &::after {
+          width: 20px;
+          height: 20px;
+          content: '';
+          display: block;
+          background: url(../../assets/images/arrow.png);
+          background-repeat: no-repeat;
+          margin-left: 10px;
+          margin-top: 4px;
+        }
+      }
+    }
+  }
+
+  .section-posts {
+    margin-left: -15px;
+    margin-right: -15px;
+
+    .card-3 {
+      display: flex;
+      flex-direction: column;
+      min-height: 410px;
+
+      .image {
+        overflow: hidden;
+        width: 100%;
+        height: 200px;
+
+        img {
+          object-fit: contain;
+        }
+      }
+    }
+  }
+}
+
+// reuse
+.btn-orange {
+  font-size: 16px;
+  font-weight: 500;
+  color: white;
+  margin-top: -15px;
+  background-color: #FF7F5C;
+  margin-left: 20px;
+  border-radius: 10px;
+  padding: 15px 40px;
+  border-radius: 30px;
+  width: fit-content;
+  min-width: 150px;
+  height: fit-content;
+  max-height: 67px;
+
+  &:hover {
+    transition: .2s ease;
+    background-color: #db6544;
+  }
+}
+
+.btn-blue {
+  font-size: 14px;
+  color: white;
+  margin-top: 20px;
+  padding: 15px 40px;
+  background: #3734A9;
+  border-radius: 7px;
+
+  &:hover {
+    transition: .2s ease;
+    background-color: #24208f;
+  }
 }
