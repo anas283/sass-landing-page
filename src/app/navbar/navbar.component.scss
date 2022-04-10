@@ -28,6 +28,22 @@
         color: #FF7F5C;
       }
     }
+
+    .links.chevron {
+      display: flex;
+      flex-direction: row;
+      
+      &::after {
+        width: 20px;
+        height: 20px;
+        content: '';
+        display: block;
+        background: url(../../assets/images/chevron-down.png);
+        background-repeat: no-repeat;
+        margin-left: 10px;
+        margin-top: 7px;
+      }
+    }
   }
 
   .btn-link {
