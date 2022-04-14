@@ -97,3 +97,62 @@
     }
   }
 }
+
+@media only screen and (max-width: 600px) {
+  .footer {
+    .section-join {
+      padding: 50px 20px;
+  
+      .section-title {
+        font-size: 30px;
+        line-height: 40px;
+      }
+    }
+  
+    .section-info {
+      padding: 50px 20px;
+  
+      .title-1 {
+        font-size: 20px;
+        line-height: 27px;
+        text-align: center;
+      }
+  
+      .title-2 {
+        font-size: 14px;
+        line-height: 20px;
+        margin-top: 5px;
+        text-align: center;
+      }
+  
+      .subtitle {
+        margin-top: 15px;
+        text-align: center;
+      }
+    }
+  
+    .section-copyright {
+      padding: 40px 20px;
+      display: flex;
+      flex-direction: column;
+
+      .text-center-sm {
+        text-align: center !important;
+        margin-top: 10px;
+      }
+       
+      h6 {
+        color: white;
+        font-size: 12px;
+      }
+    }
+  
+    .btn-orange {
+      margin-top: 25px;
+    }
+  }
+
+  .mt-sm-20 {
+    margin-top: 20px;
+  }
+}
